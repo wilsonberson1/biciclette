@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biciclette Produtos | Ofertas para ciclistas</title>
+  <meta name="description" content="Curadoria de produtos para ciclismo: eletrônicos, capacetes, luzes, ferramentas e acessórios com links de afiliado Amazon e Mercado Livre." />
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">
+        <div class="logo">B</div>
+        <div>
+          <strong>Biciclette Produtos</strong>
+          <span>curadoria para ciclistas</span>
+        </div>
+      </div>
+      <a class="nav-cta" href="#produtos">Ver ofertas</a>
+    </nav>
+
+    <section class="hero-content">
+      <div class="hero-copy">
+        <span class="pill">Amazon • Mercado Livre • AliExpress</span>
+        <h1>Produtos certos para pedalar melhor, gastar menos e comprar com segurança.</h1>
+        <p>Uma vitrine moderna com seleção de acessórios, eletrônicos, ferramentas e itens de performance para estrada, gravel e uso urbano.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#produtos">Explorar produtos</a>
+          <a class="btn secondary" href="#como-funciona">Como funciona</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="deal-badge">Oferta em destaque</div>
+        <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=900&auto=format&fit=crop" alt="Bicicleta de estrada" />
+        <div class="hero-card-info">
+          <strong>Setup essencial para ciclistas</strong>
+          <span>luzes • GPS • capacete • ferramentas</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="trust">
+      <div><strong>Curadoria</strong><span>produtos úteis de verdade</span></div>
+      <div><strong>Comparação</strong><span>Amazon e Mercado Livre</span></div>
+      <div><strong>Afiliado</strong><span>você não paga a mais por isso</span></div>
+    </section>
+
+    <section id="produtos" class="section">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Vitrine</span>
+          <h2>Produtos recomendados</h2>
+        </div>
+        <div class="filters">
+          <input id="search" type="search" placeholder="Buscar produto..." />
+          <select id="category">
+            <option value="Todos">Todos</option>
+            <option value="Eletrônicos">Eletrônicos</option>
+            <option value="Segurança">Segurança</option>
+            <option value="Ferramentas">Ferramentas</option>
+            <option value="Acessórios">Acessórios</option>
+            <option value="Nutrição">Nutrição</option>
+          </select>
+        </div>
+      </div>
+      <div id="grid" class="product-grid"></div>
+    </section>
+
+    <section id="como-funciona" class="section split">
+      <div>
+        <span class="eyebrow">Como monetizar</span>
+        <h2>Você cola seus links uma vez e o site divulga automaticamente.</h2>
+        <p>Os produtos ficam no arquivo <code>assets/products.js</code>. Basta trocar os links de exemplo pelos seus links de afiliado. O site monta os cards sozinho.</p>
+      </div>
+      <div class="steps">
+        <div><span>1</span><p>Cadastre ou gere seus links de afiliado.</p></div>
+        <div><span>2</span><p>Edite o arquivo <code>products.js</code>.</p></div>
+        <div><span>3</span><p>Suba no Vercel e conecte seu domínio.</p></div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <strong>Transparência:</strong> este site pode conter links de afiliado. Ao comprar por esses links, o Biciclette pode receber comissão sem custo adicional para você.
+    </section>
+  </main>
+
+  <footer>
+    <strong>Biciclette Produtos</strong>
+    <span>Feito para ciclistas que pesquisam antes de comprar.</span>
+  </footer>
+
+  <script src="assets/products.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
